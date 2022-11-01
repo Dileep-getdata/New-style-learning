@@ -11,16 +11,18 @@ body{
 button{
     background-color: black;
     border: none;
-    color: white;
+    color: rgb(75, 131, 180);
     position: fixed;
     top:20px;
     right: 20px;
-    padding: 1.3rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
     transition: transform 0.5s ease-in-out;
 }
 nav{
     background-color: black;
-    color: white;
+    color: rgb(75, 131, 180);
     position: fixed;
     top: 0;
     right: 0;
@@ -34,7 +36,7 @@ nav.activate{
 }
 
 button.activate{
-    transform: translateX(-100px);
+    transform: translateX(-180px);
 }
 nav ul{
     list-style-type: none;
@@ -45,6 +47,9 @@ nav ul li{
     padding: 2rem 0;
 }
 nav a{
-    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(75, 131, 180);
     text-decoration: none;
+    cursor: pointer;
 }
