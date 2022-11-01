@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box  ;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    min-height: 100vh;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    position: fixed;
+    top:20px;
+    right: 20px;
+    padding: 1.3rem;
+    transition: transform 0.5s ease-in-out;
+}
+nav{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out;
+}
+nav.activate{
+    transform: translate(0);
+}
+
+button.activate{
+    transform: translateX(-100px);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    padding: 2rem 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
