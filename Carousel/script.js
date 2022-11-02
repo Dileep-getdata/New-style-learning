@@ -6,6 +6,6 @@ function run(){
     if(index>img.length-1){
         index=0;
     }
-    imgs.style.transform=`translateX(${-index*400}px)`;
+    imgs.style.transform=`translateX(${-index*500}px)`;
 }
 setInterval(run,2000);
