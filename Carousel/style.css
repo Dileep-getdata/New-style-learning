@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box  ;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    min-height: 100vh;
+    background-color: black;
+    /* color: rgb(75, 131, 180);
+    font-size: 1.2rem;
+    font-weight: bolder;  */
+}
+.carousel{
+    box-shadow: 3px 3px 5px rgb(252, 251, 250);
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+}
+.image-container{
+    display: flex;
+     transition: transform 0.3s linear;
+    transform: translateX(0px); 
+}
+img{
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+}
+
+
